@@ -1,113 +1,221 @@
 import Image from 'next/image'
+import {BsMoonStarsFill} from 'react-icons/bs'
+import {AiFillTwitterCircle  , AiFillInstagram, AiFillLinkedin} from 'react-icons/ai'
+import profile from '../public/profile.png'
+import design from '../public/design.png'
+import code from '../public/code.png'
+import consulting from '../public/consulting.png'
+
+import web1 from '../public/web1.png'
+import web2 from '../public/web2.png'
+import web3 from '../public/web3.png'
+import web4 from '../public/web4.png'
+import web5 from '../public/web5.png'
+import web6 from '../public/web6.png'
+import { FaFacebook , FaTwitter ,FaInstagram ,FaLinkedin, FaVoicemail, FaPhone } from 'react-icons/fa'
+import { AiOutlineMail } from 'react-icons/ai'
+
 
 export default function Home() {
+ 
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          Get started by editing&nbsp;
-          <code className="font-mono font-bold">app/page.js</code>
-        </p>
-        <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
-          <a
-            className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className="dark:invert"
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
-      </div>
+  
+ 
+ 
+ <main>
+ <section className='min-h-screen px-10 md:px-20 lg:px-40'>
+ <nav className='px-10 py-10 flex justify-between'>
+ <h2 className='text-xl'>Hamza Ejaz</h2>
+ <ul className='flex items-center'>
+ <li><BsMoonStarsFill className='text-2xl cursor-pointer'/></li>
+ <li><a href='#' className='bg-gradient-to-r from-cyan-500 to-teal-500 px-4 rounded py-2 ml-8 text-white'>Resume</a></li>
+ </ul>
+ </nav>
+ <div className='text-center pt-10 px-10'>
+<h2 className='text-5xl md:text-6xl py-2 text-teal-600 font-medium'>Hamza Ejaz</h2>
+<h3 className='text-2xl md:text-3xl py-2'>Developer and Designer</h3>
+<p className='text-md py-5 leading-8 md:text-xl text-gray-800 max-w-lg mx-auto '>Freelancer providing services  for programming and design content needs. Join me down below let's get cracking!</p>
 
-      <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px] z-[-1]">
-        <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
 
-      <div className="mb-32 grid text-center lg:mb-0 lg:grid-cols-4 lg:text-left">
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Docs{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
 
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800 hover:dark:bg-opacity-30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Learn{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Learn about Next.js in an interactive course with&nbsp;quizzes!
-          </p>
-        </a>
+ </div>
+ <div className='text-5xl flex justify-center gap-5 py-2 text-gray-600'>
+ <AiFillInstagram/>
+ <AiFillTwitterCircle/>
 
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Templates{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Explore the Next.js 13 playground.
-          </p>
-        </a>
+ <AiFillLinkedin/>
 
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Deploy{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
+ </div>
+ 
+<div className='relative bg-gradient-to-b  mx-auto from-teal-500 rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96'>
+<Image src={profile} layout='fill' objectFit='cover'/>
+</div>
+
+
+ </section>
+ 
+
+<section className='mx-10'>
+<div className='mx-10'>
+<h3 className='text-3xl pt-16  '>Services I offer</h3>
+<p className='text-md py-2 leading-8 text-gray-800'>
+Since the beginning of my journey as a freelance design developer , I 've done remote work for
+<span className='text-teal-500'> agencies </span>consulte
+for 
+<span className='text-teal-500'> startups </span> and callaborated with talanted people to create digital product for both bussiness and consumer use.
+
+</p>
+<p className='text-md py-2 leading-8 text-gray-800'>
+I offer from a wide range of services including brands and programming and teaching</p>
+
+</div>
+
+<div className='lg:flex gap-10'>
+<div className='text-cneter shadow-lg p-10 rounded-xl my-10'>
+<Image src={design} width={100} height={100} className='mx-auto' />
+<h3 className='text-lg font-medium pt-8 pb-2'>Beautiful Designs </h3>
+<p className='text-sm font-thin'>Creating elegant design suited for your needs following core design.</p>
+
+<h4 className='text-lg'>Design tool I use</h4>
+<p>Photoshop</p>
+<p>illustrator</p>
+<p>Figma</p>
+</div>
+
+
+<div className='text-cneter shadow-lg p-10 rounded-xl my-10'>
+<Image src={consulting} width={100} height={100} className='mx-auto' />
+<h3 className='text-lg font-medium pt-8 pb-2'>Beautiful Designs </h3>
+<p className='text-sm font-thin'>Creating elegant design suited for your needs following core design.</p>
+
+<h4 className='text-lg'>Design tool I use</h4>
+<p>Photoshop</p>
+<p>illustrator</p>
+<p>Figma</p>
+</div>
+
+
+<div className='text-cneter shadow-lg p-10 rounded-xl my-10'>
+<Image src={code} width={100} height={100} className='mx-auto' />
+<h3 className='text-lg font-medium pt-8 pb-2'>Beautiful Designs </h3>
+<p className='text-sm font-thin'>Creating elegant design suited for your needs following core design.</p>
+
+<h4 className='text-lg'>Design tool I use</h4>
+<p>Photoshop</p>
+<p>illustrator</p>
+<p>Figma</p>
+</div>
+
+
+
+
+
+
+
+
+
+
+</div>
+
+</section>
+
+<section className='mx-10'>
+<div className='mx-10'>
+<h3 className='text-3xl pt-16  '>Portfolio</h3>
+<p className='text-md py-2 leading-8 text-gray-800'>
+Since the beginning of my journey as a freelance design developer , I 've done remote work for
+<span className='text-teal-500'> agencies </span>consulte
+for 
+<span className='text-teal-500'> startups </span> and callaborated with talanted people to create digital product for both bussiness and consumer use.
+
+</p>
+<p className='text-md py-2 leading-8 text-gray-800'>
+I offer from a wide range of services including brands and programming and teaching.</p>
+
+</div>
+
+<div className='flex flex-col gap-10 py-10 lg:flex-row  md:flex-wrap'>
+<div className='basis-1/3 flex-1'>
+<Image src={web1} className='rounded-lg object-cover' width={"100%"} height={"100%"} layout='responsive'/>
+</div>
+<div className='basis-1/3 flex-1'>
+<Image src={web2} className='rounded-lg object-cover' width={"100%"} height={"100%"} layout='responsive'/>
+</div>
+<div className='basis-1/3 flex-1'>
+<Image src={web3} className='rounded-lg object-cover' width={"100%"} height={"100%"} layout='responsive'/>
+</div>
+<div className='basis-1/3 flex-1'>
+<Image src={web4} className='rounded-lg object-cover' width={"100%"} height={"100%"} layout='responsive'/>
+</div>
+<div className='basis-1/3 flex-1'>
+<Image src={web5} className='rounded-lg object-cover' width={"100%"} height={"100%"} layout='responsive'/>
+</div>
+<div className='basis-1/3 flex-1'>
+<Image src={web6} className='rounded-lg object-cover' width={"100%"} height={"100%"} layout='responsive'/>
+</div>
+
+</div>
+
+</section> 
+
+<section>
+<div className='bg-gray-100 max-w-full py-5 min-h-[100vh]' id="contactus">
+<h1 className='text-center text-3xl pt-10'>Contact us </h1>
+<hr className='w-1/12 mx-auto border-t-[4px]  border-0 font-bold mb-5 border-red-500 '/>
+<p className='text-center md:px-36 sm:px-25 py-5'>Do you have any questions? or want to share any idea? reach out and we'll see how we can assist.</p>
+
+<div className="md:flex justify-between   md:px-36  sm:block ">
+<div className='mails  w-1/2  mr-10'>
+<div className='bg-red flex w-full '>
+<div className='bg-white px-5 py-3  '><FaFacebook className='text-orange-600 text-[82px] border-dotted border-2 border-orange-400 rounded-full py-5'/><p className='text-gray-500 text-center mt-2'>Facebook</p>
+</div>
+<div className='bg-white px-5 py-3  '><FaLinkedin className='text-orange-600 text-[82px] border-dotted border-2 border-orange-400 rounded-full py-5'/><p className='text-gray-500 text-center mt-2'>Linkedin</p>
+</div>
+<div className='bg-white px-5 py-3  '><FaTwitter className='text-orange-600 text-[82px] border-dotted border-2 border-orange-400 rounded-full py-5'/><p className='text-gray-500 text-center mt-2'>Twitter</p>
+</div>
+<div className='bg-white px-5 py-3  '><FaInstagram className='text-orange-600 text-[82px] border-dotted border-2 border-orange-400 rounded-full py-5'/><p className='text-gray-500 text-center mt-2'>Instagram</p>
+</div>
+
+</div>
+<div className='flex justify-between my-7  '>
+<div  className='bg-white px-12  md:w-1/2 sm:w-full mr-3  text-center py-20 '><a href='mailto:hamzaejaz0771@gmail.com'>
+<AiOutlineMail className='text-orange-600 w-full text-[82px] text-center border-dotted border-2 border-orange-400 rounded-full py-5'/><p className='text-gray-500 text-center mt-2'>Email</p>
+<p className='text-sm font-thin'>hamzaejaz0771@gmail.com</p>
+</a>
+
+</div>
+<div  className='bg-white px-12  md:w-1/2 sm:w-full mr-3  text-center py-20 '><a href='tel:+9203118203633'>
+<FaPhone className='text-orange-600 w-full text-[82px] text-center border-dotted border-2 border-orange-400 rounded-full py-5'/><p className='text-gray-500 text-center mt-2'>Phone</p>
+<p className='text-sm font-thin'>+9203118203633</p>
+</a>
+
+</div>
+
+</div>
+</div>
+
+
+<div className='forms bg-white md:w-1/2 sm:w-full ml-5 px-8 py-10'>
+<div className='flex justify-between items-center'>
+<form >
+<label className="w-full ">Name</label>
+<input type="text" name="user_name" className="w-full px-5 py-2 my-2 bg-transparent border-2 rounded border-gray-300" />
+<label className="w-full">Your Email</label>
+<input type="email" name="user_email" className="w-full px-5 py-2 my-2 bg-transparent border-2 rounded border-gray-300" />
+<label className="w-full">Message</label>
+<textarea name="message" className="w-full px-4 py-2 resize-none border-2 rounded border-gray-300" rows="5" cols="5" />
+<input type="submit" value="Send Message" className="w-full px-5 py-2 my-2 bg-orange-600 text-white" />
+</form>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+ 
+ </main>
   )
 }
